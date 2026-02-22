@@ -1,0 +1,92 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+   
+    
+}
+
+/* md */
+@media (max-width: 768px) {
+
+
+    main {
+        width: 95%;
+        /* ocupa quase toda a largura */
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+
+
+    table th,
+    table td {
+        padding: 6px;
+    }
+
+    div img {
+        width: 100%;
+        height: auto;
+    }
+
+    #bt-voltar {
+        width: 100%;
+        max-width: 150px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header p {
+        font-size: 20px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    footer {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    footer p {
+        width: 90%;
+    }
+}
+   
+
+/* sm */
+@media (max-width: 640px) {
+    
+}
+
+/* xs */
+@media (max-width: 475px) {
+    
+}

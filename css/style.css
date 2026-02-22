@@ -1,0 +1,225 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Cima */
+
+header {
+    /* background-color: dodgerblue;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; */
+
+    background-color: dodgerblue;
+    padding: 10px 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 300px;
+    border-radius: 40px;
+}
+
+header p {
+    color: white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-right: 20px; */
+}
+
+/* Meio */
+
+main {
+
+    width: 95%;
+    margin: 0px auto;
+    padding: 0px;
+    margin-bottom: 0px;
+    overflow-x: auto;
+    height: 73vh;
+}
+
+
+
+table {
+    /* width: 100%;
+    /* border-collapse: collapse; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    overflow-x: auto;
+    width: 100%;
+    /* min-width: 900px; */
+    /* Garante que todas as colunas caibam */
+    border-collapse: collapse;
+    /* font-size: 1rem; */
+    /* overflow-x: auto; */
+}
+
+
+
+div {
+    width: 100%;
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+div img {
+    margin-top: 19px;
+
+}
+
+.linhas {
+    background-color: #F2F2F2;
+}
+
+.titulos-colunas {
+
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0px;
+}
+
+.rotas {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+
+.imagem {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#img-logo:hover {
+    transform: scale(1.02);
+}
+
+.coluna-objeto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    width: 40%;
+    padding: 4px;
+}
+
+th {
+    padding: 4px;
+    font-size: 17px;
+}
+
+td a:hover {
+
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* botao */
+#bt-voltar {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 700;
+    padding: 6px;
+    border: 1px solid 663300;
+    border-radius: 6px;
+    width: 70px;
+
+
+}
+
+
+
+div a:hover #bt-voltar {
+    background-color: rgb(40, 118, 182);
+    cursor: pointer;
+
+
+}
+
+.div-voltar {
+    padding: 20px 0px;
+}
+
+/* Baixo */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    height: 75px;
+    /* position: absolute; */
+    /* margin-bottom: 0px;
+    left: 0; */
+}
+
+
+
+footer p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: blueviolet;
+}
+
